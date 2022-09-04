@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+/* font-family: 'Barlow Semi Condensed', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+#Container{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+}
+.CardContainer{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    gap: 2em;
+}
+
+/* Top Section Cards Style */
+.leftCards{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.topCards{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    gap: 5em;
+}
+
+.RightTopCard{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 75%;
+    padding-top: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.Profile{
+    padding-left: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-weight: 500;
+}
+.Profile img{
+    border: 1px solid hsl(0, 0%, 81%);
+    width: 40px;
+    border-radius: 50%;
+}
+.Profile .name p{
+    color: white;
+    font-size: 15px;
+    font: 500;
+}
+.Profile .name span{
+    color: rgba(245, 245, 245, 0.623);
+    font-size: 15px;
+    font: 500;
+}
+
+.Heading{
+    padding-left: 1.5em;
+    text-align: left;
+}
+.Heading h3{
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+}
+.Comments{
+    padding-left: 1.5rem;
+}
+.Comments p{
+    color: rgba(245, 245, 245, 0.623);
+}
+
+.LeftTopCard{
+    background-color: hsl(217, 19%, 35%);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+     gap: 0.5em;
+     padding: 1.5em;
+    padding-top: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+/* Top Section Cards StyleEnd */ 
+
+
+
+/* Bottom Section Cards Style */
+.bottomCards{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 5em;
+}
+.LeftBottomCard{
+     background-color: white;
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+      gap: 0.5em;
+      padding: 1.5em;
+     padding-top: 1em;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.LeftBottomCard .Profile .name p{
+    color: black;
+    font-size: 15px;
+    font: 500;
+}
+.LeftBottomCard .Profile .name span{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font: 500;
+}
+.LeftBottomCard .Heading h3{
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+}
+.LeftBottomCard .Comments p{
+    color:rgba(0, 0, 0, 0.5);
+    line-height: 1.45em;
+}
+
+.RightBottomCard{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color:  hsl(219, 29%, 14%);
+    padding-top: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+
+}
+
+
+
+
+/* Bottom Section Cards Style End  */
+
+
+
+
+
+
+/* Right Section Cards Style */
+.rightCards{
+   width: 20%;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   padding-top: 1em;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.Profile{
+    padding-left: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-weight: 500;
+}
+.rightCards .Profile .name p{
+    color: black;
+    font-size: 15px;
+    font: 500;
+}
+.rightCards .Profile .name span{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font: 500;
+}
+.rightCards .Heading h3{
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.rightCards .Comments p{
+    color:rgba(0, 0, 0, 0.5);
+    line-height: 1.45em;
+}
+/* Right Section Cards Style End */
