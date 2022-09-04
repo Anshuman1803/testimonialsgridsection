@@ -28,7 +28,7 @@
         width: 100%;
         gap: 0.5em;
         padding-bottom: 1em;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .LeftTopCard{
         background-color: hsl(217, 19%, 35%);
@@ -39,7 +39,7 @@
          padding: 1.5em;
         padding-top: 1em;
         border-radius: 5px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
     .bottomCards{
@@ -59,13 +59,13 @@
       padding: 1.5em;
      padding-top: 1em;
      border-radius: 5px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .RightBottomCard{
         width: 90%;
         gap: 0.5em;
         padding-bottom: 1em;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 
     }
     .rightCards{
@@ -77,6 +77,6 @@
         padding-top: 1em;
         padding-bottom: 1em;
         border-radius: 5px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
      }
 }
